@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B69D61924A1F50000E52C87 /* DWPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69D61824A1F50000E52C87 /* DWPhotoPicker.swift */; };
+		5B89D21E24A08684008A20D1 /* DWPhotoDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */; };
+		5B89D22324A09738008A20D1 /* check_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D22124A09738008A20D1 /* check_on@2x.png */; };
+		5B89D22424A09738008A20D1 /* check_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D22224A09738008A20D1 /* check_off@2x.png */; };
+		5B89D22624A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D22524A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift */; };
+		5B89D22824A0B02D008A20D1 /* DWPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D22724A0B02D008A20D1 /* DWPhotoPickerViewController.swift */; };
+		5B89D22D24A0B09D008A20D1 /* DWAlbumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D22C24A0B09D008A20D1 /* DWAlbumItem.swift */; };
+		5BC53B98249C502300FCE96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53B97249C502300FCE96A /* AppDelegate.swift */; };
+		5BC53B9C249C502300FCE96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53B9B249C502300FCE96A /* ViewController.swift */; };
+		5BC53B9F249C502300FCE96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC53B9D249C502300FCE96A /* Main.storyboard */; };
+		5BC53BA1249C502700FCE96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC53BA0249C502700FCE96A /* Assets.xcassets */; };
+		5BC53BA4249C502700FCE96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC53BA2249C502700FCE96A /* LaunchScreen.storyboard */; };
+		5BC53BAF249C511400FCE96A /* DWPhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53BAE249C511400FCE96A /* DWPhotoConfig.swift */; };
+		5BC53BB5249C54BE00FCE96A /* DWAlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53BB4249C54BE00FCE96A /* DWAlbumListViewController.swift */; };
+		5BC53BB7249C577D00FCE96A /* DWPhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53BB6249C577D00FCE96A /* DWPhotoPickerManager.swift */; };
+		5BC53BBA249C9BD000FCE96A /* DWPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC53BB9249C9BD000FCE96A /* DWPhotoDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B69D61824A1F50000E52C87 /* DWPhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoPicker.swift; sourceTree = "<group>"; };
+		5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoDetailViewCell.swift; sourceTree = "<group>"; };
+		5B89D22124A09738008A20D1 /* check_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_on@2x.png"; sourceTree = "<group>"; };
+		5B89D22224A09738008A20D1 /* check_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_off@2x.png"; sourceTree = "<group>"; };
+		5B89D22524A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoPickerViewCell.swift; sourceTree = "<group>"; };
+		5B89D22724A0B02D008A20D1 /* DWPhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoPickerViewController.swift; sourceTree = "<group>"; };
+		5B89D22C24A0B09D008A20D1 /* DWAlbumItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWAlbumItem.swift; sourceTree = "<group>"; };
+		5BC53B94249C502300FCE96A /* DWPhotoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWPhotoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC53B97249C502300FCE96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BC53B9B249C502300FCE96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC53B9E249C502300FCE96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BC53BA0249C502700FCE96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC53BA3249C502700FCE96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BC53BA5249C502700FCE96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC53BAE249C511400FCE96A /* DWPhotoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoConfig.swift; sourceTree = "<group>"; };
+		5BC53BB4249C54BE00FCE96A /* DWAlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWAlbumListViewController.swift; sourceTree = "<group>"; };
+		5BC53BB6249C577D00FCE96A /* DWPhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoPickerManager.swift; sourceTree = "<group>"; };
+		5BC53BB9249C9BD000FCE96A /* DWPhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC53B91249C502300FCE96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B89D22024A096E3008A20D1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B89D22224A09738008A20D1 /* check_off@2x.png */,
+				5B89D22124A09738008A20D1 /* check_on@2x.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5B89D22924A0B05A008A20D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BC53BB4249C54BE00FCE96A /* DWAlbumListViewController.swift */,
+				5B89D22724A0B02D008A20D1 /* DWPhotoPickerViewController.swift */,
+				5BC53BB9249C9BD000FCE96A /* DWPhotoDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B89D22A24A0B075008A20D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B89D22524A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift */,
+				5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B89D22B24A0B085008A20D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B89D22C24A0B09D008A20D1 /* DWAlbumItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BC53B8B249C502300FCE96A = {
+			isa = PBXGroup;
+			children = (
+				5BC53B96249C502300FCE96A /* DWPhotoPickerDemo */,
+				5BC53B95249C502300FCE96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC53B95249C502300FCE96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC53B94249C502300FCE96A /* DWPhotoPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC53B96249C502300FCE96A /* DWPhotoPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BC53BAB249C506B00FCE96A /* DWPhotoPicker */,
+				5BC53B97249C502300FCE96A /* AppDelegate.swift */,
+				5BC53B9B249C502300FCE96A /* ViewController.swift */,
+				5BC53B9D249C502300FCE96A /* Main.storyboard */,
+				5BC53BA0249C502700FCE96A /* Assets.xcassets */,
+				5BC53BA2249C502700FCE96A /* LaunchScreen.storyboard */,
+				5BC53BA5249C502700FCE96A /* Info.plist */,
+			);
+			path = DWPhotoPickerDemo;
+			sourceTree = "<group>";
+		};
+		5BC53BAB249C506B00FCE96A /* DWPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5B89D22B24A0B085008A20D1 /* Model */,
+				5B89D22A24A0B075008A20D1 /* View */,
+				5B89D22924A0B05A008A20D1 /* Controller */,
+				5B89D22024A096E3008A20D1 /* Source */,
+				5BC53BB6249C577D00FCE96A /* DWPhotoPickerManager.swift */,
+				5BC53BAE249C511400FCE96A /* DWPhotoConfig.swift */,
+				5B69D61824A1F50000E52C87 /* DWPhotoPicker.swift */,
+			);
+			path = DWPhotoPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC53B93249C502300FCE96A /* DWPhotoPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC53BA8249C502700FCE96A /* Build configuration list for PBXNativeTarget "DWPhotoPickerDemo" */;
+			buildPhases = (
+				5BC53B90249C502300FCE96A /* Sources */,
+				5BC53B91249C502300FCE96A /* Frameworks */,
+				5BC53B92249C502300FCE96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWPhotoPickerDemo;
+			productName = DWPhotoPickerDemo;
+			productReference = 5BC53B94249C502300FCE96A /* DWPhotoPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC53B8C249C502300FCE96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Davy;
+				TargetAttributes = {
+					5BC53B93249C502300FCE96A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5BC53B8F249C502300FCE96A /* Build configuration list for PBXProject "DWPhotoPickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC53B8B249C502300FCE96A;
+			productRefGroup = 5BC53B95249C502300FCE96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC53B93249C502300FCE96A /* DWPhotoPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC53B92249C502300FCE96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC53BA4249C502700FCE96A /* LaunchScreen.storyboard in Resources */,
+				5BC53BA1249C502700FCE96A /* Assets.xcassets in Resources */,
+				5B89D22424A09738008A20D1 /* check_off@2x.png in Resources */,
+				5B89D22324A09738008A20D1 /* check_on@2x.png in Resources */,
+				5BC53B9F249C502300FCE96A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC53B90249C502300FCE96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC53B9C249C502300FCE96A /* ViewController.swift in Sources */,
+				5B89D21E24A08684008A20D1 /* DWPhotoDetailViewCell.swift in Sources */,
+				5B89D22824A0B02D008A20D1 /* DWPhotoPickerViewController.swift in Sources */,
+				5B89D22D24A0B09D008A20D1 /* DWAlbumItem.swift in Sources */,
+				5BC53BBA249C9BD000FCE96A /* DWPhotoDetailViewController.swift in Sources */,
+				5BC53B98249C502300FCE96A /* AppDelegate.swift in Sources */,
+				5BC53BB7249C577D00FCE96A /* DWPhotoPickerManager.swift in Sources */,
+				5BC53BB5249C54BE00FCE96A /* DWAlbumListViewController.swift in Sources */,
+				5BC53BAF249C511400FCE96A /* DWPhotoConfig.swift in Sources */,
+				5B69D61924A1F50000E52C87 /* DWPhotoPicker.swift in Sources */,
+				5B89D22624A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BC53B9D249C502300FCE96A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC53B9E249C502300FCE96A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC53BA2249C502700FCE96A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC53BA3249C502700FCE96A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC53BA6249C502700FCE96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC53BA7249C502700FCE96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC53BA9249C502700FCE96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ64N6FKDE;
+				INFOPLIST_FILE = DWPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.DWPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC53BAA249C502700FCE96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ64N6FKDE;
+				INFOPLIST_FILE = DWPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.DWPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC53B8F249C502300FCE96A /* Build configuration list for PBXProject "DWPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC53BA6249C502700FCE96A /* Debug */,
+				5BC53BA7249C502700FCE96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC53BA8249C502700FCE96A /* Build configuration list for PBXNativeTarget "DWPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC53BA9249C502700FCE96A /* Debug */,
+				5BC53BAA249C502700FCE96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC53B8C249C502300FCE96A /* Project object */;
+}
