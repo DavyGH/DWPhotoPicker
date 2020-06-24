@@ -23,8 +23,8 @@ class DWPhotoConfig {
     var photoMargin = 8.0
     
     /// 缩略图质量
-    var thumbnailSize = CGSize(width: 300, height: 300)
+    var thumbnailSize = CGSize(width: 300.0, height: 300.0)
     
     /// 原图质量
-    var originalSize = CGSize(width: 1024, height: 1024)
+    var originalSize = CGSize(width: 1080.0, height: 1080.0)
 }
