@@ -17,8 +17,6 @@ class DWPhotoPickerManager: NSObject {
     
     let imageManager = PHCachingImageManager()
     
-    var isRequest = false /// 请求本地图片单个执行（防止多个请求对数据进行改写）
-    
     var allResults = [DWAlbumItem]() /// 获取所有相册列表
     
     var cacheAssets = [DWAsset]() /// 缓存原质量图片
@@ -105,10 +103,6 @@ class DWPhotoPickerManager: NSObject {
     /// 请求指定质量图片
     func requestImage(asset: PHAsset, size: CGSize, cpmplete: ((UIImage) -> Void)?) {
         
-        if isRequest { return }
-        
-        isRequest = true
-        
         var cacheModel: DWAsset? /// 有缩略图没有原图时（去下载原图）
         
         for model in cacheAssets {
@@ -117,7 +111,6 @@ class DWPhotoPickerManager: NSObject {
                 if model.originalImage != nil { /// 有原图先取原图
                     cpmplete?(model.originalImage!)
                     print("找到图片缓存 size \(size.debugDescription)")
-                    isRequest = false
                     return
                 }
                 
@@ -125,7 +118,6 @@ class DWPhotoPickerManager: NSObject {
                     if size == config.thumbnailSize { /// 需要缩略图直接返回
                         cpmplete?(model.thumbnail!)
                         print("找到图片缓存 size \(size.debugDescription)")
-                        isRequest = false
                         return
                     } else { /// 需要原图就去下载
                         cacheModel = model
@@ -142,8 +134,6 @@ class DWPhotoPickerManager: NSObject {
         
         autoreleasepool {
             imageManager.requestImage(for: asset, targetSize: size, contentMode: .aspectFill, options: options, resultHandler: {[weak self] (result, dict) in
-                
-                self?.isRequest = false
                 
                 if let image = result {
                     
@@ -215,7 +205,6 @@ class DWPhotoPickerManager: NSObject {
     /// 清除所有相册
     func cleanAlbum() {
         allResults.removeAll()
-        isRequest = false
     }
     
     func albumChinseTitle(title: String?) -> String? {

@@ -12,8 +12,6 @@ class DWPhotoPicker {
     
     var config = DWPhotoConfig()
     
-    var sourceVC: UIViewController = (UIApplication.shared.keyWindow?.rootViewController)!
-    
     func show(complete: @escaping ([UIImage]) -> Void) {
         
         PhotoPickerManager.config = config
@@ -31,6 +29,10 @@ class DWPhotoPicker {
         
         let nav = UINavigationController(rootViewController: vc)
         nav.modalPresentationStyle = .fullScreen
-        sourceVC.present(nav, animated: true, completion: nil)
+        config.sourceVC.present(nav, animated: true, completion: nil)
+    }
+    
+    deinit {
+        print("deinit -> DWPhotoPicker")
     }
 }

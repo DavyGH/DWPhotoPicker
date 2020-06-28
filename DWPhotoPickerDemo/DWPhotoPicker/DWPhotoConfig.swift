@@ -22,9 +22,12 @@ class DWPhotoConfig {
     /// 浏览大图图片上下左右间隙 默认8.0
     var photoMargin = 8.0
     
+    /// 原图质量
+    var originalSize = CGSize(width: 1080.0, height: 1080.0)
+    
     /// 缩略图质量
     var thumbnailSize = CGSize(width: 300.0, height: 300.0)
     
-    /// 原图质量
-    var originalSize = CGSize(width: 1080.0, height: 1080.0)
+    /// 弹出相册VC
+    var sourceVC: UIViewController = (UIApplication.shared.keyWindow?.rootViewController)!
 }
