@@ -132,8 +132,8 @@ class DWPhotoPickerManager: NSObject {
         options.resizeMode = .fast
         options.isSynchronous = true
         
-        autoreleasepool {
-            imageManager.requestImage(for: asset, targetSize: size, contentMode: .aspectFill, options: options, resultHandler: {[weak self] (result, dict) in
+        DispatchQueue(label: "RequestImage").async {
+            self.imageManager.requestImage(for: asset, targetSize: size, contentMode: .aspectFill, options: options, resultHandler: {[weak self] (result, dict) in
                 
                 if let image = result {
                     
@@ -204,6 +204,7 @@ class DWPhotoPickerManager: NSObject {
     
     /// 清除所有相册
     func cleanAlbum() {
+        config = DWPhotoConfig()
         allResults.removeAll()
     }
     

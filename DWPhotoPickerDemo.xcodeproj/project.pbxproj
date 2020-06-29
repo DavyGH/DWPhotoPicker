@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B69D61924A1F50000E52C87 /* DWPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69D61824A1F50000E52C87 /* DWPhotoPicker.swift */; };
+		5B80524D24A99230006B242E /* DWAlbumListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B80524C24A99230006B242E /* DWAlbumListViewCell.swift */; };
 		5B89D21E24A08684008A20D1 /* DWPhotoDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */; };
 		5B89D22324A09738008A20D1 /* check_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D22124A09738008A20D1 /* check_on@2x.png */; };
 		5B89D22424A09738008A20D1 /* check_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D22224A09738008A20D1 /* check_off@2x.png */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		5B69D61824A1F50000E52C87 /* DWPhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoPicker.swift; sourceTree = "<group>"; };
+		5B80524C24A99230006B242E /* DWAlbumListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWAlbumListViewCell.swift; sourceTree = "<group>"; };
 		5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWPhotoDetailViewCell.swift; sourceTree = "<group>"; };
 		5B89D22124A09738008A20D1 /* check_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_on@2x.png"; sourceTree = "<group>"; };
 		5B89D22224A09738008A20D1 /* check_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_off@2x.png"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		5B89D22A24A0B075008A20D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B80524C24A99230006B242E /* DWAlbumListViewCell.swift */,
 				5B89D22524A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift */,
 				5B89D21D24A08684008A20D1 /* DWPhotoDetailViewCell.swift */,
 			);
@@ -221,6 +224,7 @@
 				5BC53BAF249C511400FCE96A /* DWPhotoConfig.swift in Sources */,
 				5B69D61924A1F50000E52C87 /* DWPhotoPicker.swift in Sources */,
 				5B89D22624A0AFB3008A20D1 /* DWPhotoPickerViewCell.swift in Sources */,
+				5B80524D24A99230006B242E /* DWAlbumListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

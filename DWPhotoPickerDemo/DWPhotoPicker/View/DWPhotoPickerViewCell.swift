@@ -59,7 +59,9 @@ class DWPhotoPickerViewCell: UICollectionViewCell {
         
         if let res = result.asset {
             PhotoPickerManager.requestImage(asset: res, size: PhotoPickerManager.config.thumbnailSize) {[weak self] (image) in
-                self?.iconView.image = image
+                DispatchQueue.main.async {
+                    self?.iconView.image = image
+                }
             }
         }
     }

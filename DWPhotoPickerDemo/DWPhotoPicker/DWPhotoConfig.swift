@@ -28,6 +28,4 @@ class DWPhotoConfig {
     /// 缩略图质量
     var thumbnailSize = CGSize(width: 300.0, height: 300.0)
     
-    /// 弹出相册VC
-    var sourceVC: UIViewController = (UIApplication.shared.keyWindow?.rootViewController)!
 }
